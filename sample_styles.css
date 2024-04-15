@@ -22,18 +22,19 @@
     font-weight: bold;
 }
 
-.header-container-menu {
-    display: flex;
-}
 
 .header-container-menu ul {
+    display: inline-block;
+    
     font-size: medium;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     margin-right: 10px; /* Add space between menu items */
 }
 
 .header-container-menu ul:last-child {
-    margin-right: 0; /* Remove margin from the last menu item */
+    
+    margin-right: 20; /* Remove margin from the last menu item */
+    
 }
