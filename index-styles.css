@@ -5,11 +5,20 @@
     position: fixed; /* Make the header fixed */
     top: 0; /* Align the header to the top of the viewport */
     width: 100%; /* Ensure the header spans the full width of the viewport */
-    background-color: grey;
     z-index: 1000; /* Ensure the header appears above other content */
     margin-left: -8px;
+    transition: background-color 0.2s ease; /* Add transition for smooth color change */
 }
-
+.header-container.scroll {
+    background-color: black; /* Background color when scrolled */
+}
+.header-bg{
+    display: flex;
+    width: 101%;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: url('Images/arle.png') center top/cover no-repeat;
+}
 .header-container-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
@@ -17,7 +26,10 @@
     color: white;
     margin-left: 15px;
 }
-
+.header-container-title a{
+    text-decoration: none;
+    color: white;
+}
 
 .header-container-menu ul {
     display: inline-block;
@@ -34,16 +46,15 @@
 }
 .secondary-header {
     width: 100%;
-
     margin-left: -8px;
     padding: 50px;
-    background-color: grey;
-
+    height: 30vh;
 }
 
 .secondary-header h1 {
+    display: flex;
+    justify-content: center;
     color: white; /* Text color */
-    font-size: medium; /* Font size */
+    font-size: 12vh; /* Font size */
     text-align: center; /* Center align the text */
-    padding-top: 10px; /* Add padding to vertically center the text */
 }
