@@ -1,3 +1,34 @@
-.h3 {
-    background-color: antiquewhite;
+.body-container {
+    display: flex;
+    flex-direction: column; /* Ensures body content is stacked vertically */
+    font-size: medium;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+}
+
+.header-container-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.header-container-menu {
+    display: flex;
+}
+
+.header-container-menu ul {
+    font-size: medium;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px; /* Add space between menu items */
+}
+
+.header-container-menu ul:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
 }
