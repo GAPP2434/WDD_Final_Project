@@ -68,3 +68,40 @@
     font-size: 12vh; /* Font size */
     text-align: center; /* Center align the text */
 }
+.body-poster {
+    display: flex;
+    flex-direction: column; /* Ensures body content is stacked vertically */
+    font-size: medium;
+    padding-top: 60px; /* Add padding equal to the height of the header */
+    /*justify-content: center;*/
+    /*background-color: aqua;*/
+}
+#poster-caption {
+    color: #857251;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.body-service {
+    display: flex;
+    flex-direction: row; /* Ensures body content is stacked vertically */
+    justify-content: space-evenly;
+    font-size: medium;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: #827153;
+}
+
+.body-service p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    color: #FFFAF1;
+}
+#service-title {
+    font-size: 34px;
+    font-weight: bold;
+}
