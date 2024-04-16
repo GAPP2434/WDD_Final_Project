@@ -38,11 +38,12 @@
 .body-articles-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: medium;
     padding: 20px;
     background-color: #F7F4EE;
-    position: relative; /* Add relative positioning to the container */
+
+    /*position: relative; /* Add relative positioning to the container */
 }
 
 .button-more-articles {
@@ -60,6 +61,7 @@
     flex-direction: column; /* Arrange content vertically */
     justify-content: center; /* Center content vertically */
     text-align: center; /* Center content horizontally */
+    flex-shrink: 0;
 }
 
 .body-articles-figure figcaption {
