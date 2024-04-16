@@ -24,6 +24,53 @@
     color: #FFFAF1;
 }
 
+.body-articles {
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    */
+    font-size: medium;
+    padding: 20px;
+    background-color: #F7F4EE;
+}
+
+.body-articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: medium;
+    padding: 20px;
+    background-color: #F7F4EE;
+    position: relative; /* Add relative positioning to the container */
+}
+
+.button-more-articles {
+    position: absolute;
+    bottom: 0; /* Align the button to the bottom of the container */
+    right: 0; /* Align the button to the right edge of the container */
+}
+
+
+.body-articles-figure {
+    row-gap: 15px;
+    padding: 5px;
+    align-self: center;
+    display: flex; /* Add flex display to the figure container */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center content horizontally */
+}
+
+.body-articles-figure figcaption {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #666666;
+}
+
+
 #service-title {
     font-size: 34px;
     font-weight: bold;
