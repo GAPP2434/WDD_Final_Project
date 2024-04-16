@@ -79,3 +79,51 @@
     margin-left: -8px;
     text-align: center;
 }
+.carousel {
+    max-width: 250px;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+  }
+  .slide {
+    display: none;
+ }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ .next {
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: white;
+  }
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    margin-bottom: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+.active, .dot:hover {
+    background-color: #717171;
+  }
+.slide img{
+    width: 100px;
+    height: 300px;
+}

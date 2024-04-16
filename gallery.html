@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="gallery-styles.css">
-    <script src = "articles-script.js"></script>
+    <script src = "gallery-script.js"></script>
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
@@ -34,6 +34,26 @@
     <!--body-->
     <div class = "header-body">
         <h1>Photos of the Kids</h1>
+    </div>
+    <div style = "background-color: rgb(114, 66, 3); width: 101%; margin-left: -10px;">
+    <div class = carousel>
+        <div class = "slide">
+            <img src = "Images/kid1.jpg" style = "width:100%;">
+        </div>
+        <div class = "slide">
+            <img src = "Images/kid2.jpg" style = "width:100%;">
+        </div>
+        <div class = "slide">
+            <img src = "Images/kid3.jpg" style = "width:100%;">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
 </body>
 </html>
