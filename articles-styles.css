@@ -36,7 +36,7 @@
     font-size: medium;
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     margin-right: 10px;
 }
 
@@ -68,58 +68,48 @@
     font-size: 12vh; /* Font size */
     text-align: center; /* Center align the text */
 }
-.body-poster {
+.header-body{
+    background-color: rgb(248, 240, 226);
     display: flex;
-    flex-direction: column; /* Ensures body content is stacked vertically */
-    font-size: medium;
-    padding-top: 60px; /* Add padding equal to the height of the header */
-    /*justify-content: center;*/
-    /*background-color: aqua;*/
+    width: 101%;
+    margin-left: -8px;
 }
-#poster-caption {
-    color: #857251;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: 500;
-    font-style: italic;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-.body-service {
+.entry1{
     display: flex;
-    flex-direction: row; /* Ensures body content is stacked vertically */
-    justify-content: space-evenly;
-    font-size: medium;
-    padding: 20px;
-    margin-top: 60px;
-    background-color: #827153;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 55vw;
 }
-
-.body-service p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: lighter;
-    color: #FFFAF1;
+.entry2{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 55vw;
 }
-#service-title {
-    font-size: 34px;
-    font-weight: bold;
+.entry3{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width: 55vw;
 }
-#see-all-btn{
-    float: right; 
-    border-radius: 5px; 
-    background-color: transparent; 
-    border: 1px solid white; 
-    color: white;
-    padding: 15px;
-}
-#see-all-btn:hover{
-    background-color:rgba(255, 255, 255, 0.185)
-}
-#see-all-btn a{
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
     display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding: 15px;
-    margin: -15px;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: transform 0.3s ease; /* Added transition property */
+}
+.arrow.up{
+    transform: rotate(-135deg); /* Adjusted rotation for up arrow */
+    -webkit-transform: rotate(-135deg);
+}
+.entry-container{
+    display: flex;
+    margin: 0 auto;
+    width: 55vw;
 }
