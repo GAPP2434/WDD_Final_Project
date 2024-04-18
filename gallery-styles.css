@@ -15,7 +15,7 @@
 }
 .header-bg{
     display: flex;
-    width: 101%;
+    width: 100%;
     margin-top: -8px;
     margin-left: -8px;
     background: url('Images/arle.png') center top/cover no-repeat;
@@ -72,7 +72,7 @@
 /*end of header*/
 .header-body{
     background-color: rgb(248, 240, 226);
-    width: 101%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,4 +126,41 @@
 .slide img{
     width: 100px;
     height: 300px;
+}
+/*Main Gallery*/
+.gallery-container-row1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.gallery-pictures{
+    width: 20%;
+    height: 300px;
+    margin-top: 30px;   
+}
+.gallery-pictures:first-child{
+    margin-left: 100px;
+}
+.gallery-pictures:last-child{
+    margin-right: 100px;
+}
+.gallery-pictures img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+.gallery-pictures h3{
+    text-align: center;
+}
+.gallery-container-row2{
+    background-color: rgb(114, 66, 3);
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 100px;
+    height: 400px;
+}
+.gallery-container-row2 h3{
+    color: white;
 }
