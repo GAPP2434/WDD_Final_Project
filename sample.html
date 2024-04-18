@@ -30,7 +30,7 @@
                 <img src="img/poster.jpg" alt="Family Poster" style="width:80%">
                 <figcaption id="poster-caption">Forming a Bond of Life with every child with no Blood Debt incurred.</figcaption>
               </figure>
-              <hr style="width: 75%;"> 
+              <hr> 
         </center>
     </div>
 
@@ -49,73 +49,85 @@
     </div>
 
     <!--BODY: ARTICLES-->
-    <div class="body-articles" style="">
-        
-        <div class="body-articles-container">
-         <div style="display: flex; justify-content: center; width: fit-content;">
-            <div class="body-articles-figure" style="">
-                <figure>
-                    <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                    <figcaption>Sample Article</figcaption>
-                </figure>
-            </div>
-            <div class="body-articles-figure">
-                <figure>
-                    <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                    <figcaption>Sample Article</figcaption>
-                </figure>
-            </div>
-            <div class="body-articles-figure">
-                <figure>
-                    <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                    <figcaption>Sample Article</figcaption>
-                </figure>
-            </div>
-            <div class="body-articles-figure" >
-                <figure>
-                    <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                    <figcaption>Sample Article</figcaption>
-
-                    <div style=" display: flex ; justify-content: flex-end; ">
-                        <button class="" style="position:absolute; margin-top: 20px;" >More Articles</button>
-                    </div>
-                </figure>
+    <div class="body-articles">
+        <div>
+            <div class="body-articles-container">
+             <div style="display: flex; justify-content: center; width: fit-content;">
+                <div class="body-articles-figure" style="">
+                    <figure>
+                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                        <figcaption>Sample Article</figcaption>
+                    </figure>
+                </div>
+                <div class="body-articles-figure">
+                    <figure>
+                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                        <figcaption>Sample Article</figcaption>
+                    </figure>
+                </div>
+                <div class="body-articles-figure">
+                    <figure>
+                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                        <figcaption>Sample Article</figcaption>
+                    </figure>
+                </div>
+                <div class="body-articles-figure" >
+                    <figure>
+                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                        <figcaption>Sample Article</figcaption>
+    
+                        <div style=" display: flex ; justify-content: flex-end; ">
+                            <button class="" style="position:absolute; margin-top: 20px;" >More Articles</button>
+                        </div>
+                    </figure>
+                </div>
             </div>
         </div>
+        </div> <!--Articles Section applies to other sections for some reason, needs an extra ending div tag Idk why-->
+        <center>
+            <hr style="margin-top: 45px;">
+        </center>
     </div>
 
     <!--BODY: OFFERINGS-->
-    <div class="body-offerings">
-        <!--Carousel-->
-    <div style = "background-color: rgb(255, 255, 255); width: 100%;">
-        <div class = carousel>
-            <div class = "slide">
-                <img src = "img/charlotte.jpg" style = "width:100%;">
+    <div>
+        <div class="body-offerings">
+            <!--Carousel-->
+            <div style = "width: 25%;">
+                <div class = carousel>
+                    <!--
+                    object-fit  and object-position are only  necessary if the image
+                    exceeds the maximum size, remove it otherwise lol
+                    -->
+                    <div class = "slide">
+                        <img src = "img/1.jpg" style = "width:100%; object-fit: cover; object-position: 0% 20%;">
+                    </div>
+                    <div class = "slide">
+                        <img src = "img/2.png" style = "width:100%; object-fit: cover;">
+                    </div>
+                    <div class = "slide">
+                        <img src = "img/3.jpg" style = "width:100%; object-fit: cover; object-position: 35% 0%;">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </div>
-            <div class = "slide">
-                <img src = "img/header-bg.png" style = "width:100%;">
-            </div>
-            <div class = "slide">
-                <img src = "img/poster.jpg" style = "width:100%;">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-        </div>
 
-        <div>
-            <p id="offerings-title">A Service for All</p>
-            <p>Beyond housing, we cater to counseling, adoption, and training for each child housed.
-                <br> Each child carries the pride of The Knave.
-            </p>
+            <div>
+                <p id="offerings-title">Check out our offerings!</p>
+                <p>Lorem Ipsum something something
+                    <br> each child something something
+                </p>
+            </div>
         </div>
+        <hr>
     </div>
 
-    <script src="sample.js"></script>
+    <script src="script/index.js"></script>
 </body>
 </html>
