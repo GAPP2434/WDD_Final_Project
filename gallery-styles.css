@@ -70,6 +70,8 @@
     text-align: center; /* Center align the text */
 }
 /*end of header*/
+
+/*Carousel*/
 .header-body{
     background-color: rgb(248, 240, 226);
     width: 100%;
@@ -127,6 +129,7 @@
     width: 100px;
     height: 300px;
 }
+
 /*Main Gallery*/
 .gallery-container-row1{
     display: flex;
@@ -164,6 +167,8 @@
 .gallery-container-row2 h3{
     color: white;
 }
+/*End of Gallery*/
+
 /*Modal*/
 .modal {
   position: fixed;
@@ -188,7 +193,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid black;
 }
 
 .modal-header .title {
@@ -206,6 +211,40 @@
 .modal-body {
   padding: 10px 15px;
 }
+/*Content of Modal*/
+.modal-body-pic{
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.info1{
+  width: 200px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -350px;
+}
+.info2{
+  width: 400px;
+  position: absolute;
+  margin-left: 480px;
+  margin-top: -350px;
+}
+.info2 h3{
+  text-align: left;
+}
+.info1 h3{
+  text-align: right;
+}
+.remark{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -70px;
+}
+.remark p{
+  width: 350px;
+}
+/*End of Content of Modal*/
 
 #overlay {
   position: fixed;
@@ -223,6 +262,8 @@
   opacity: 1;
   pointer-events: all;
 }
+/* End of Modal*/
+
 /*Footer*/
 .social {
     width: 50px;
