@@ -115,6 +115,14 @@
     margin: 0 auto;
     width: 55vw;
 }
+.comment{
+
+}
+.comment-header{
+    width: 700px;
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+}
 /*Footer*/
 .social {
     width: 50px;
