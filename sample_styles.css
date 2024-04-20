@@ -1,0 +1,195 @@
+.body-poster {
+    display: flex;
+    flex-direction: column; /* Ensures body content is stacked vertically */
+    font-size: medium;
+    padding-top: 60px; /* Add padding equal to the height of the header */
+    /*justify-content: center;*/
+    /*background-color: aqua;*/
+}
+
+.body-service {
+    display: flex;
+    flex-direction: row; /* Ensures body content is stacked vertically */
+    justify-content: space-evenly;
+    font-size: medium;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: #827153;
+}
+
+.body-service p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    color: #FFFAF1;
+}
+
+.body-articles {
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    */
+    font-size: medium;
+    padding: 20px;
+    background-color: #F7F4EE;
+}
+
+.body-articles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: medium;
+    padding: 20px;
+    background-color: #F7F4EE;
+
+    /*position: relative; /* Add relative positioning to the container */
+}
+
+.button-more-articles {
+    position: absolute;
+    bottom: 0; /* Align the button to the bottom of the container */
+    right: 0; /* Align the button to the right edge of the container */
+}
+
+
+.body-articles-figure {
+    row-gap: 15px;
+    padding: 5px;
+    align-self: center;
+    display: flex; /* Add flex display to the figure container */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center content horizontally */
+    flex-shrink: 0;
+}
+
+.body-articles-figure figcaption {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.body-offerings {
+    display: flex;
+    flex-direction: row; /* Ensures body content is stacked vertically */
+    justify-content: space-evenly;
+    font-size: medium;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.body-offerings p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    color: #666666;
+}
+
+#service-title, #offerings-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#poster-caption {
+    color: #857251;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+/*CAROUSEL STUFF*/
+.carousel {
+    max-width: 260px;
+    max-height: 260px;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+  }
+  .slide {
+    display: none;
+ }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ .next {
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: white;
+  }
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    margin-bottom: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+.active, .dot:hover {
+    background-color: #717171;
+  }
+.slide img{
+    width: 260px;
+    height: 260px;
+}
+/*END OF CAROUSEL STUFF*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Align the header to the top of the viewport */
+    width: 100%; /* Ensure the header spans the full width of the viewport */
+    background-color: #ffffff; /* Add background color to the header */
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+.header-container-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.header-container-menu ul {
+    display: inline-block;
+    
+    font-size: medium;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    margin-right: 10px; /* Add space between menu items */
+}
+
+.header-container-menu ul:last-child {
+    
+    margin-right: 20; /* Remove margin from the last menu item */
+    
+}
