@@ -13,7 +13,7 @@
     <div class = "header-bg">
         <div class="header-container">
             <div class="header-container-title">
-                <h1><a href = "sample.html">Snezhnaya Hearth Orphanage</a></h1>
+                <h1><a href = "NOT_USED/index.html">Snezhnaya Hearth Orphanage</a></h1>
             </div>
             <div class="header-container-menu">
                 <ul><a href = "sample.html">Home</a></ul>
@@ -93,40 +93,38 @@
 
     <!--BODY: ARTICLES-->
     <div class="body-articles">
-        <div>
-            <div class="body-articles-container">
-             <div style="display: flex; justify-content: center; width: fit-content;">
-                <div class="body-articles-figure" style="">
-                    <figure>
-                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                        <figcaption>Sample Article</figcaption>
-                    </figure>
-                </div>
-                <div class="body-articles-figure">
-                    <figure>
-                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                        <figcaption>Sample Article</figcaption>
-                    </figure>
-                </div>
-                <div class="body-articles-figure">
-                    <figure>
-                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                        <figcaption>Sample Article</figcaption>
-                    </figure>
-                </div>
-                <div class="body-articles-figure" >
-                    <figure>
-                        <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                        <figcaption>Sample Article</figcaption>
-    
-                        <div style=" display: flex ; justify-content: flex-end;  ">
-                            <button class="articles-button" style="position:absolute; margin-top: 20px; width: 260px;" >More Articles</button>
+                <div class="body-articles-container" >
+                    <div class = "body-articles-figure-container">
+                        <div class="body-articles-figure">
+                            <figure>
+                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <figcaption>Sample Article</figcaption>
+                            </figure>
                         </div>
-                    </figure>
+                        <div class="body-articles-figure">
+                            <figure>
+                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <figcaption>Sample Article</figcaption>
+                            </figure>
+                        </div>
+                        <div class="body-articles-figure">
+                            <figure>
+                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <figcaption>Sample Article</figcaption>
+                            </figure>
+                        </div>
+                        <div class="body-articles-figure" >
+                            <figure>
+                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <figcaption>Sample Article</figcaption>
+            
+                                <div style=" display: flex ; justify-content: flex-end;  ">
+                                    <button class="articles-button" style="position:absolute; margin-top: 20px; width: 260px;" >More Articles</button>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        </div> <!--Articles Section applies to other sections for some reason, needs an extra ending div tag Idk why-->
         <center>
             <hr style="margin-top: 45px;">
         </center>
