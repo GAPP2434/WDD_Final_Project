@@ -120,9 +120,8 @@
                         <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                         <figcaption>Sample Article</figcaption>
     
-                        <div style=" display: flex ; justify-content: flex-end; ">
-                            <button class="articles-button" >More Articles</button>
-                            <button class="articles-button" style="position:absolute; margin-top: 20px;" >More Articles</button>
+                        <div style=" display: flex ; justify-content: flex-end;  ">
+                            <button class="articles-button" style="position:absolute; margin-top: 20px; width: 260px;" >More Articles</button>
                         </div>
                     </figure>
                 </div>
