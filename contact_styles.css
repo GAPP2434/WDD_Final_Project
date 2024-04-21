@@ -8,6 +8,8 @@
   z-index: 1000; /* Ensure the header appears above other content */
   margin-left: -8px;
   transition: background-color 0.2s ease; /* Add transition for smooth color change */
+  margin: 0;
+    width: 101%;
 }
 .header-container.scroll {
   background-color: black; /* Background color when scrolled */
