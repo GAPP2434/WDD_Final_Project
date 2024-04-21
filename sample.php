@@ -51,12 +51,12 @@
                     <form action="donate.php" method="POST">
                         <label for="amount">Amount:</label><br>
                         <input type="number" id="amount" name="amount" required><br><br>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" data-modal-target = "#thanks">
                     </form>
         </div>
     </div>
     <!-- Second Modal (Initially Hidden) -->
-        <div class="modal" id="thanks" >
+        <div class="modal" id="thanks">
             <div class="modal-header">
                 <div class="title">Second Modal Title</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -217,8 +217,6 @@
         </div>
      </div>
     </footer>
-    <script src="script/index.js">
-
-    </script>
+    <script src="script/index.js"></script>
 </body>
 </html>
