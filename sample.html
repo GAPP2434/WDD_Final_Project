@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="button.css">
     <title>Sample Page</title>
 </head>
-<body>
+<body style = "margin: 0;">
     <!-- HEADER -->
     <div class = "header-bg">
         <div class="header-container">
@@ -17,7 +17,7 @@
             </div>
             <div class="header-container-menu">
                 <ul><a href = "sample.html">Home</a></ul>
-                <ul><a href = "sample.html">About</a></ul>
+                <ul><a href = "about.html">About</a></ul>
                 <ul><a href = "sample.html">Services</a></ul>
                 <ul><a href = "articles.html">Articles</a></ul>
                 <ul><a href = "gallery.html">Gallery</a></ul>
@@ -46,7 +46,13 @@
         </div>
         <div class="modal-body">
             <h1>Donate Now!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in dignissimos porro nemo velit, aliquam deleniti commodi? Similique, aliquam autem.</p>
+            <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
+            <h2>Enter Amount to Donate</h2>
+                <form action="donate.php" method="POST">
+                    <label for="amount">Amount:</label><br>
+                    <input type="number" id="amount" name="amount" required><br><br>
+                    <input type="submit" value="Submit">
+                </form>
         </div>
     </div>
     <div id="overlay"></div>
