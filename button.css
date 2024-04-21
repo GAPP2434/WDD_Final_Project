@@ -1,3 +1,4 @@
+/*Fancy*/
 .fancy {
     background-color: transparent;
     border: 2px solid #000;
@@ -102,4 +103,34 @@
     .fancy:hover .bottom-key-2 {
     right: 0;
     width: 0;
+   }
+
+   /*Simple*/
+   .simple-button {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: black;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+   .simple-button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   .simple-button:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   .simple-button:disabled {
+    cursor: auto;
+    color: grey;
    }

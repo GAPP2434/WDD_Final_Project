@@ -116,7 +116,8 @@
     width: 55vw;
 }
 .comment{
-
+    border-top: 1px solid black;
+    margin-top: 50px;
 }
 .comment-header{
     width: 700px;

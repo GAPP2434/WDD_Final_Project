@@ -27,19 +27,29 @@
         <div class="secondary-header">
             <h1>House of Hearth</h1>
             <div style = " width: 100%; display: flex; justify-content: center;">
-            <div style = "border-top: 15px solid khaki; width: 25vw; margin-top: -50px;" ></div>
+                <div style = "border-top: 15px solid khaki; width: 25vw; margin-top: -50px;" ></div>
             </div>
-            <div style = "display: flex; justify-content: center;" >
-                <a class="fancy" href="sample.html">
+            <div style = "display: flex; justify-content: center; align-items: center;">
+                <button data-modal-target="#modal" class="fancy">
                     <span class="top-key"></span>
                     <span class="text">Support the Cause</span>
                     <span class="bottom-key-1"></span>
                     <span class="bottom-key-2"></span>
-                  </a>
+                </button>
             </div>
         </div>
     </div>
-
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Support the Cause!</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <h1>Donate Now!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in dignissimos porro nemo velit, aliquam deleniti commodi? Similique, aliquam autem.</p>
+        </div>
+    </div>
+    <div id="overlay"></div>
     <!-- BODY: SECTION 1-->
     <div class="body-poster">
         <center>
@@ -94,7 +104,7 @@
                         <figcaption>Sample Article</figcaption>
     
                         <div style=" display: flex ; justify-content: flex-end; ">
-                            <button class="" style="position:absolute; margin-top: 20px;" >More Articles</button>
+                            <button style="position:absolute; margin-top: 20px;" >More Articles</button>
                         </div>
                     </figure>
                 </div>
@@ -189,6 +199,6 @@
             </div>
         </div>
     </footer>
-    <script src="script/index.js"></script>
+    <script defer src="script/index.js"></script>
 </body>
 </html>
