@@ -6,6 +6,14 @@ window.addEventListener('scroll', function() {
       headerContainer.classList.remove('scroll');
   }
 });
+// Wait for the page to load
+window.onload = function() {
+  // Select the second modal by its id
+  var modal = document.getElementById('modal2');
+  
+  // Display the modal
+  modal.style.display = 'block';
+};
 window.onload = function() {
     plusSlides(0);
   };
@@ -75,3 +83,4 @@ function closeModal(modal) {
   overlay.classList.remove('active')
 }
 /*end of modal*/
+
