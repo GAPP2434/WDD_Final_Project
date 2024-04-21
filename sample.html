@@ -27,32 +27,33 @@
         <div class="secondary-header">
             <h1>House of Hearth</h1>
             <div style = " width: 100%; display: flex; justify-content: center;">
-            <div style = "border-top: 15px solid khaki; width: 25vw; margin-top: -50px;" ></div>
+                <div style = "border-top: 15px solid khaki; width: 25vw; margin-top: -50px;" ></div>
             </div>
-            <div style = "display: flex; justify-content: center;" >
-                <a class="fancy" href="sample.html">
+            <div style = "display: flex; justify-content: center; align-items: center;">
+                <button data-modal-target="#modal" class="fancy">
                     <span class="top-key"></span>
                     <span class="text">Support the Cause</span>
                     <span class="bottom-key-1"></span>
                     <span class="bottom-key-2"></span>
-                  </a>
+                </button>
             </div>
         </div>
-        <div class="modal" id="modal">
-            <div class="modal-header">
-                <div class="title">Support the Cause!</div>
-                <button data-close-button class="close-button">&times;</button>
-            </div>
-            <div class="modal-body">
-                <h1>Donate Now!</h1>
-                <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
-                <h2>Enter Amount to Donate</h2>
-                    <form action="donate.php" method="POST">
-                        <label for="amount">Amount:</label><br>
-                        <input type="number" id="amount" name="amount" required><br><br>
-                        <input type="submit" value="Submit">
-                    </form>
-            </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Support the Cause!</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <h1>Donate Now!</h1>
+            <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
+            <h2>Enter Amount to Donate</h2>
+                <form action="donate.php" method="POST">
+                    <label for="amount">Amount:</label><br>
+                    <input type="number" id="amount" name="amount" required><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
     </div>
     <div id="overlay"></div>
     <!-- BODY: SECTION 1-->
