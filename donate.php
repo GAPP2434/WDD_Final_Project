@@ -7,5 +7,8 @@
     $signup = mysqli_query($conn, "INSERT INTO `tbldonation`(`dAmount`, `dDate`) 
     VALUES ('".$amount."','".$currentdate."')");
 
-    header("Location:sample.html");
+    // Redirect to sample.html
+    header("Location: sample.html");
+    exit;
 ?>
+
