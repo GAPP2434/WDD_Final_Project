@@ -38,8 +38,23 @@
                   </a>
             </div>
         </div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title">Support the Cause!</div>
+                <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h1>Donate Now!</h1>
+                <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
+                <h2>Enter Amount to Donate</h2>
+                    <form action="donate.php" method="POST">
+                        <label for="amount">Amount:</label><br>
+                        <input type="number" id="amount" name="amount" required><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+            </div>
     </div>
-
+    <div id="overlay"></div>
     <!-- BODY: SECTION 1-->
     <div class="body-poster">
         <center>
