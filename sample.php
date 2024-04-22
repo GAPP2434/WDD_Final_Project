@@ -25,9 +25,11 @@
             </div>
         </div>
         <div class="secondary-header">
-            <h1>House of Hearth</h1>
-            <div style = " width: 100%; display: flex; justify-content: center;">
-                <div style = "border-top: 15px solid khaki; width: 25vw; margin-top: -50px;" ></div>
+            <div style = "width: 100%; height: 100%; margin-bottom: -80px; display: flex; justify-content: center; align-items: center;">
+                <h1>House of Hearth</h1>
+            </div>
+            <div style = "margin-bottom: 50px;">
+                <div class = "underline"></div>
             </div>
             <div style = "display: flex; justify-content: center; align-items: center;">
                 <button data-modal-target="#modal" class="fancy">
@@ -117,16 +119,17 @@
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                                 <figcaption>Sample Article</figcaption>
-            
-                                <div style=" display: flex ; justify-content: flex-end;  ">
-                                    <button class="articles-button" style="position:absolute; margin-top: 20px; width: 260px;" >More Articles</button>
+                                <div style=" display: flex ;">
+                                    <button class="articles-button" >More Articles</button>
                                 </div>
                             </figure>
+                            
                         </div>
+                        
                     </div>
                 </div>
         <center>
-            <hr style="margin-top: 45px;">
+            <hr style="margin-top: 80px;">
         </center>
     </div>
 
@@ -134,7 +137,7 @@
     <div>
         <div class="body-offerings">
             <!--Carousel-->
-            <div style = "width: 25%;">
+            <div style = "width: 29em">
                 <div class = carousel>
                     <!--
                     object-fit  and object-position are only  necessary if the image
