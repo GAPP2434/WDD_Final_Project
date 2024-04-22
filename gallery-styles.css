@@ -243,6 +243,9 @@
 .remark p{
   width: 350px;
 }
+.general-info li{
+  padding-bottom: 30px;
+}
 /*End of Content of Modal*/
 
 #overlay {

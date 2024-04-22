@@ -73,12 +73,12 @@
     <!-- Second Modal (Initially Hidden) -->
         <div class="modal" id="thanks">
             <div class="modal-header">
-                <div class="title">Second Modal Title</div>
+                <div class="title">Thank You!</div>
                 <button data-close-button class="close-button">&times;</button>
             </div>
             <div class="modal-body">
                 <div class="modal-body-1">
-                    <p>This is the content of the second modal.</p>
+                    <p>Thank you for Donating! It means the world to us!</p>
                 </div>
             </div>
         </div>
