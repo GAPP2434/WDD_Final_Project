@@ -13,7 +13,7 @@
     <div class = "header-bg">
         <div class="header-container">
             <div class="header-container-title">
-                <h1><a href = "NOT_USED/index.html">Snezhnaya Hearth Orphanage</a></h1>
+                <h1><a href = "sample.php">Snezhnaya Hearth Orphanage</a></h1>
             </div>
             <div class="header-container-menu">
                 <ul><a href = "sample.php">Home</a></ul>
