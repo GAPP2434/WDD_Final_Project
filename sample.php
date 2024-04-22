@@ -41,14 +41,11 @@
             </div>
         </div>
     </div>
-        <!--MODAL STUFF-->
         <div class="modal" id="modal">
-            <!--HEAD-->
             <div class="modal-header">
                 <div class="title">Support the Cause!</div>
                 <button data-close-button class="close-button">&times;</button>
             </div>
-            <!--BODY-->
             <div class="modal-body">
                 <div style="display: flex; flex-direction: row; justify-content: space-between;">
                     <div class="modal-body-1">
@@ -71,6 +68,7 @@
                     </span>
                 </div>
         </div>
+    </div>
     </div>
     <!-- Second Modal (Initially Hidden) -->
         <div class="modal" id="thanks">
@@ -101,7 +99,6 @@
             <p>Beyond housing, we cater to counseling, adoption, and training for each child housed.
                 <br> Each child carries the pride of The Knave.
             </p>
-            <button class="service-button">Learn More</button>
             <button style="float: right; border-radius: 5px;" class = "service-button">See All</button>
         </div>
         <div class="body-service-img">
@@ -109,12 +106,11 @@
         </div>
     </div>
 
-        <!--BODY: ARTICLES-->
-        <div class="body-articles">
-                <div>
-                    <div class="body-articles-container">
-                    <div style="display: flex; justify-content: center; width: fit-content;">
-                        <div class="body-articles-figure" style="">
+    <!--BODY: ARTICLES-->
+    <div class="body-articles">
+                <div class="body-articles-container" >
+                    <div class = "body-articles-figure-container">
+                        <div class="body-articles-figure">
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                                 <figcaption>Sample Article</figcaption>
@@ -186,7 +182,7 @@
                 </p>
             </div>
         </div>
-        <hr style="margin-bottom: 15px;">
+        <hr>
     </div>
 
     <div style=" height:5em; background-color: rgb(130,113,83); display: flex; justify-content: center; align-content: center;">
