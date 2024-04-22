@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="sample_styles.css">
     <link rel="stylesheet" href="button.css">
-    <title>Sample Page</title>
+    <title>Home</title>
 </head>
 <body style = "margin: 0;">
     <!-- HEADER -->
@@ -19,7 +19,7 @@
                 <ul><a href = "sample.php">Home</a></ul>
                 <ul><a href = "about.html">About</a></ul>
                 <ul><a href = "services.html">Services</a></ul>
-                <ul><a href = "articles.html">Articles</a></ul>
+                <ul><a href = "articles.html">Discussions</a></ul>
                 <ul><a href = "gallery.html">Gallery</a></ul>
                 <ul><a href = "contact.html">Contact</a></ul>
             </div>
@@ -115,28 +115,27 @@
                         <div class="body-articles-figure">
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                                <figcaption>Sample Article</figcaption>
+                                <a href="articles.html?entry=1" style="text-decoration: none;"><figcaption>State of Orphanages</figcaption></a>
                             </figure>
                         </div>
                         <div class="body-articles-figure">
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                                <figcaption>Sample Article</figcaption>
+                                <a href="articles.html?entry=2" style="text-decoration: none;"><figcaption>Relevance of Age</figcaption></a>
                             </figure>
                         </div>
                         <div class="body-articles-figure">
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                                <figcaption>Sample Article</figcaption>
+                                <a href="articles.html?=entry3" style="text-decoration: none;"><figcaption>Dealing with Children</figcaption></a>
                             </figure>
                         </div>
                         <div class="body-articles-figure" >
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
-                                <figcaption>Sample Article</figcaption>
+                                <a href="articles.html?entry=4" style="text-decoration: none;"><figcaption>Existing and New Families</figcaption></a>
                                 <div style=" display: flex ;">
-                                    <!--<button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">More Articles</a></button>-->
-                                    
+                                    <button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">Read More</a></button>
                                 </div>
                             </figure>
                             
