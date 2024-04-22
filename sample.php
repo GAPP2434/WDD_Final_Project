@@ -114,25 +114,25 @@
                     <div class = "body-articles-figure-container">
                         <div class="body-articles-figure">
                             <figure>
-                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <img src="https://i.insider.com/5b841ce8672e162061284559?width=700" alt="Orphanage" style="width: 260px; height: 260px; object-fit: cover;">
                                 <a href="articles.html?entry=1" style="text-decoration: none;"><figcaption>State of Orphanages</figcaption></a>
                             </figure>
                         </div>
                         <div class="body-articles-figure">
                             <figure>
-                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <img src="https://plus.unsplash.com/premium_photo-1681998458979-44c609b22c1b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="teen" style="width: 260px; height: 260px; object-fit: cover; object-position: 80% 0;">
                                 <a href="articles.html?entry=2" style="text-decoration: none;"><figcaption>Relevance of Age</figcaption></a>
                             </figure>
                         </div>
                         <div class="body-articles-figure">
                             <figure>
-                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <img src="https://images.unsplash.com/photo-1617817376017-3de702f0c35f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="children around a table" style="width: 260px; height: 260px; object-fit: cover;">
                                 <a href="articles.html?=entry3" style="text-decoration: none;"><figcaption>Dealing with Children</figcaption></a>
                             </figure>
                         </div>
                         <div class="body-articles-figure" >
                             <figure>
-                                <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
+                                <img src="https://images.unsplash.com/photo-1576696058573-12b47c49559e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="family on a beach" style="width: 260px; height: 260px; object-fit: cover;">
                                 <a href="articles.html?entry=4" style="text-decoration: none;"><figcaption>Existing and New Families</figcaption></a>
                                 <div style=" display: flex ;">
                                     <button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">Read More</a></button>
