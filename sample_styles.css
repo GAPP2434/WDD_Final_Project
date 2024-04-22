@@ -299,7 +299,7 @@ transition: all 0.4s ease;
 }
 
 .pulling-button:hover {
-color: rgb(130,113,83);
+color: #827153;
 background-color: rgb(250,235,215);
 box-shadow: 0 0 24px 8px rgba(250,235,215, 0.4);
 }
@@ -391,6 +391,8 @@ height: 20px;
   max-width: 80%;
   height: 700px;
   max-height: 80%;
+
+  font-family: Arial, Helvetica, sans-serif;
 
   background:
   radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),

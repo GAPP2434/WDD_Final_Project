@@ -77,7 +77,9 @@
                 <button data-close-button class="close-button">&times;</button>
             </div>
             <div class="modal-body">
-                <p>This is the content of the second modal.</p>
+                <div class="modal-body-1">
+                    <p>This is the content of the second modal.</p>
+                </div>
             </div>
         </div>
     <div id="overlay"></div>
@@ -94,12 +96,12 @@
 
     <!--BODY: SERVICE-->
     <div class="body-service">
-        <div class="body-service-text">
+        <div style="max-width: 42em;">
             <p id="service-title">A Service for All</p>
-            <p>Beyond housing, we cater to counseling, adoption, and training for each child housed.
-                <br> Each child carries the pride of The Knave.
+            <p>Beyond housing, we cater to counseling, adoption, and training for each child housed. Educated in all matters, wordly or not, our children are sure to meet expectations.
+                <br><br> Each child carries the pride of The Knave. We guarantee that our products will be of utmost quality.
             </p>
-            <button style="float: right; border-radius: 5px;" class = "service-button">See All</button>
+            <a href="services.html"><button style="float: right; border-radius: 5px;" class = "service-button">Learn More</button></a>
         </div>
         <div class="body-service-img">
             <img src="img/charlotte.jpg" alt="Charlotte" style="width: 464px; height: 260px; object-fit: cover; object-position: 100% 0;">
@@ -133,7 +135,8 @@
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                                 <figcaption>Sample Article</figcaption>
                                 <div style=" display: flex ;">
-                                    <button class="articles-button" >More Articles</button>
+                                    <!--<button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">More Articles</a></button>-->
+                                    
                                 </div>
                             </figure>
                             
@@ -157,13 +160,13 @@
                     exceeds the maximum size, remove it otherwise lol
                     -->
                     <div class = "slide">
-                        <img src = "img/1.jpg" style = "width:100%; object-fit: cover; object-position: 0% 20%;">
+                        <img src = "Images/kid1.jpg" style = "width:100%; object-fit: cover; object-position: 0% 20%;">
                     </div>
                     <div class = "slide">
-                        <img src = "img/2.png" style = "width:100%; object-fit: cover;">
+                        <img src = "Images/kid2.jpg" style = "width:100%; object-fit: cover;">
                     </div>
                     <div class = "slide">
-                        <img src = "img/3.jpg" style = "width:100%; object-fit: cover; object-position: 35% 0%;">
+                        <img src = "Images/kid3.jpg" style = "width:100%; object-fit: cover; object-position: 35% 0%;">
                     </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -175,10 +178,10 @@
                 </div>
             </div>
 
-            <div>
+            <div style="max-width: 42em">
                 <p id="offerings-title">Check out our offerings!</p>
-                <p>Lorem Ipsum something something
-                    <br> each child something something
+                <p>
+                There are three categories for each child, each with their own benefits. For most people, the Basic children are enough for menial tasks, however we do acknowledge different needs for different families, as such we offer higher quality children separated by their tier. Reach out to us for more details.
                 </p>
             </div>
         </div>
@@ -188,7 +191,7 @@
     <div style=" height:5em; background-color: rgb(130,113,83); display: flex; justify-content: center; align-content: center;">
         <div style="align-content: center" >
             <button class="pulling-button">
-                Start Pulling
+                <a href="contact.html" style="text-decoration: none; color: #827153;">Start Pulling</a>
               </button>
         </div>
     </div>
