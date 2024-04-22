@@ -190,7 +190,37 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin-bottom: 3rem;
   }
+  .footer-under{
+    display: inline-flex ; align-items: flex-end ; align-self: flex-end; background-color: bisque; width: 100%; left : 0 ; bottom: 0; background-color: antiquewhite;  ;display: flex; justify-content: center ; ;
+  }
+
+  
+    
+    
+  @media (max-width: 949px) {
+
+    .another-container{
+      
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 3rem;
+  
+    }
+
+
+    }
+
+ 
+
+
+
+ 
+
   .send-button {
     font-family: inherit;
     font-size: 20px;
