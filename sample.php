@@ -39,20 +39,35 @@
             </div>
         </div>
     </div>
+        <!--MODAL STUFF-->
         <div class="modal" id="modal">
+            <!--HEAD-->
             <div class="modal-header">
                 <div class="title">Support the Cause!</div>
                 <button data-close-button class="close-button">&times;</button>
             </div>
+            <!--BODY-->
             <div class="modal-body">
-                <h1>Donate Now!</h1>
-                <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
-                <h2>Enter Amount to Donate</h2>
-                    <form action="donate.php" method="POST">
-                        <label for="amount">Amount:</label><br>
-                        <input type="number" id="amount" name="amount" required><br><br>
-                        <input type="submit" value="Submit" data-modal-target = "#thanks">
-                    </form>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <div class="modal-body-1">
+                        <h1>Donate Now!</h1>
+                        <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
+                        <br>
+                        <p>Thank you for considering donating!</p>
+                    </div>
+                    <div class="modal-body-2">
+                        <h2>Enter Amount to Donate</h2>
+                            <form action="donate.php" method="POST">
+                                <label for="amount">Amount:</label><br>
+                                <input type="number" id="amount" name="amount" required><br><br>
+                            </form>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: flex-end;">
+                    <span style="background-color: rgb(133,114,81);">
+                        <input type="submit" value="Proceed" data-modal-target = "#thanks" class="modal-button">
+                    </span>
+                </div>
         </div>
     </div>
     <!-- Second Modal (Initially Hidden) -->
@@ -92,11 +107,12 @@
         </div>
     </div>
 
-    <!--BODY: ARTICLES-->
-    <div class="body-articles">
-                <div class="body-articles-container" >
-                    <div class = "body-articles-figure-container">
-                        <div class="body-articles-figure">
+        <!--BODY: ARTICLES-->
+        <div class="body-articles">
+                <div>
+                    <div class="body-articles-container">
+                    <div style="display: flex; justify-content: center; width: fit-content;">
+                        <div class="body-articles-figure" style="">
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                                 <figcaption>Sample Article</figcaption>

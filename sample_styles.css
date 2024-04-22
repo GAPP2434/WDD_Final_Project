@@ -457,6 +457,13 @@ color: #FFFAF1;
   box-shadow: 0px 22px 25px -2px rgba(0,0,0,0.1); /*https://box-shadow.dev/*/
 }
 
+@media screen and (max-width: 768px) {
+  .body-articles-figure {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
  /*Modal*/
  .modal {
   position: fixed;
@@ -472,17 +479,33 @@ color: #FFFAF1;
   max-width: 80%;
   height: 700px;
   max-height: 80%;
+
+  background:
+  radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+  radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+  radial-gradient(circle closest-side at 42% 22%, #d35 43%, rgba(221,51,85,0) 45%),
+  radial-gradient(circle closest-side at 58% 22%, #d35 43%, rgba(221,51,85,0) 45%),
+  radial-gradient(circle closest-side at 50% 35%, #d35 32%, rgba(221,51,85,0) 27%),
+
+  radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+  radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+  radial-gradient(circle closest-side at 40% 22%, #d35 40%, rgba(221,51,85,0) 45%) 52px 50px,
+  radial-gradient(circle closest-side at 60% 22%, #d35 40%, rgba(221,51,85,0) 45%) 48px 50px,
+  radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 37%) 50px 50px;
+  background-color:#b03;
+  background-size:100px 100px;
 }
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
 .modal-header {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 5px solid black;
-  background-color: grey;
+  background-color: rgb(227, 227, 227);
 }
 
 .modal-header .title {
@@ -498,8 +521,54 @@ color: #FFFAF1;
   font-weight: bold;
 }
 .modal-body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
   padding: 10px 15px;
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
+/*DESIGN STUFF*/
+.modal-body-1 {
+  width: 60%;
+  background-color: #F7F4EE;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.modal-body-2 {
+  max-height: 200px;
+  width: 30%;
+  background-color: #F7F4EE;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.modal-button {
+  background-color: #488836;
+  border: 2px #F7F4EE solid;
+  border-radius: 5px;
+  color: #F7F4EE;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #6be24b75;
+}
+
+/*DESIGN COOKED*/
+
 /*End of Content of Modal*/
 
 #overlay {
