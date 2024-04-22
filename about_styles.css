@@ -1,3 +1,4 @@
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -67,7 +68,7 @@
   font-size: 12vh; /* Font size */
   text-align: center; /* Center align the text */
 }
-/* END OF HEADER*/
+/* END OF HEADER */
 
 .socials-container {
     width: fit-content;

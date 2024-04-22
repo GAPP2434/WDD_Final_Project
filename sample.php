@@ -16,7 +16,7 @@
                 <h1><a href = "NOT_USED/index.html">Snezhnaya Hearth Orphanage</a></h1>
             </div>
             <div class="header-container-menu">
-                <ul><a href = "sample.html">Home</a></ul>
+                <ul><a href = "sample.php">Home</a></ul>
                 <ul><a href = "about.html">About</a></ul>
                 <ul><a href = "services.html">Services</a></ul>
                 <ul><a href = "articles.html">Articles</a></ul>
@@ -25,9 +25,11 @@
             </div>
         </div>
         <div class="secondary-header">
-            <h1>House of Hearth</h1>
-            <div style = " width: 100%; display: flex; justify-content: center;">
-                <div style = "border-top: 15px solid khaki; width: 25vw; margin-top: -50px;" ></div>
+            <div style = "width: 100%; height: 100%; margin-bottom: -80px; display: flex; justify-content: center; align-items: center;">
+                <h1>House of Hearth</h1>
+            </div>
+            <div style = "margin-bottom: 50px;">
+                <div class = "underline"></div>
             </div>
             <div style = "display: flex; justify-content: center; align-items: center;">
                 <button data-modal-target="#modal" class="fancy">
@@ -45,15 +47,28 @@
                 <button data-close-button class="close-button">&times;</button>
             </div>
             <div class="modal-body">
-                <h1>Donate Now!</h1>
-                <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
-                <h2>Enter Amount to Donate</h2>
-                    <form action="donate.php" method="POST">
-                        <label for="amount">Amount:</label><br>
-                        <input type="number" id="amount" name="amount" required><br><br>
-                        <input type="submit" value="Submit" data-modal-target = "#thanks">
-                    </form>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                    <div class="modal-body-1">
+                        <h1>Donate Now!</h1>
+                        <p>Howdy there! Please consider donating to the Orphanage. It will be of great help to us in keeping the children alive.</p>
+                        <br>
+                        <p>Thank you for considering donating!</p>
+                    </div>
+                    <div class="modal-body-2">
+                        <h2>Enter Amount to Donate</h2>
+                            <form action="donate.php" method="POST">
+                                <label for="amount">Amount:</label><br>
+                                <input type="number" id="amount" name="amount" required><br><br>
+                            </form>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: flex-end;">
+                    <span style="background-color: rgb(133,114,81);">
+                        <input type="submit" value="Proceed" data-modal-target = "#thanks" class="modal-button">
+                    </span>
+                </div>
         </div>
+    </div>
     </div>
     <!-- Second Modal (Initially Hidden) -->
         <div class="modal" id="thanks">
@@ -62,7 +77,9 @@
                 <button data-close-button class="close-button">&times;</button>
             </div>
             <div class="modal-body">
-                <p>This is the content of the second modal.</p>
+                <div class="modal-body-1">
+                    <p>This is the content of the second modal.</p>
+                </div>
             </div>
         </div>
     <div id="overlay"></div>
@@ -79,12 +96,12 @@
 
     <!--BODY: SERVICE-->
     <div class="body-service">
-        <div class="body-service-text">
+        <div style="max-width: 42em;">
             <p id="service-title">A Service for All</p>
-            <p>Beyond housing, we cater to counseling, adoption, and training for each child housed.
-                <br> Each child carries the pride of The Knave.
+            <p>Beyond housing, we cater to counseling, adoption, and training for each child housed. Educated in all matters, wordly or not, our children are sure to meet expectations.
+                <br><br> Each child carries the pride of The Knave. We guarantee that our products will be of utmost quality.
             </p>
-            <button style="float: right; border-radius: 5px;" class = "service-button">See All</button>
+            <a href="services.html"><button style="float: right; border-radius: 5px;" class = "service-button">Learn More</button></a>
         </div>
         <div class="body-service-img">
             <img src="img/charlotte.jpg" alt="Charlotte" style="width: 464px; height: 260px; object-fit: cover; object-position: 100% 0;">
@@ -117,16 +134,18 @@
                             <figure>
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                                 <figcaption>Sample Article</figcaption>
-            
-                                <div style=" display: flex ; justify-content: flex-end;  ">
-                                    <button class="articles-button" style="position:absolute; margin-top: 20px; width: 260px;" >More Articles</button>
+                                <div style=" display: flex ;">
+                                    <!--<button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">More Articles</a></button>-->
+                                    
                                 </div>
                             </figure>
+                            
                         </div>
+                        
                     </div>
                 </div>
         <center>
-            <hr style="margin-top: 45px;">
+            <hr style="margin-top: 80px;">
         </center>
     </div>
 
@@ -134,20 +153,20 @@
     <div>
         <div class="body-offerings">
             <!--Carousel-->
-            <div style = "width: 25%;">
+            <div style = "width: 29em">
                 <div class = carousel>
                     <!--
                     object-fit  and object-position are only  necessary if the image
                     exceeds the maximum size, remove it otherwise lol
                     -->
                     <div class = "slide">
-                        <img src = "img/1.jpg" style = "width:100%; object-fit: cover; object-position: 0% 20%;">
+                        <img src = "Images/kid1.jpg" style = "width:100%; object-fit: cover; object-position: 0% 20%;">
                     </div>
                     <div class = "slide">
-                        <img src = "img/2.png" style = "width:100%; object-fit: cover;">
+                        <img src = "Images/kid2.jpg" style = "width:100%; object-fit: cover;">
                     </div>
                     <div class = "slide">
-                        <img src = "img/3.jpg" style = "width:100%; object-fit: cover; object-position: 35% 0%;">
+                        <img src = "Images/kid3.jpg" style = "width:100%; object-fit: cover; object-position: 35% 0%;">
                     </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -159,10 +178,10 @@
                 </div>
             </div>
 
-            <div>
+            <div style="max-width: 42em">
                 <p id="offerings-title">Check out our offerings!</p>
-                <p>Lorem Ipsum something something
-                    <br> each child something something
+                <p>
+                There are three categories for each child, each with their own benefits. For most people, the Basic children are enough for menial tasks, however we do acknowledge different needs for different families, as such we offer higher quality children separated by their tier. Reach out to us for more details.
                 </p>
             </div>
         </div>
@@ -172,7 +191,7 @@
     <div style=" height:5em; background-color: rgb(130,113,83); display: flex; justify-content: center; align-content: center;">
         <div style="align-content: center" >
             <button class="pulling-button">
-                Start Pulling
+                <a href="contact.html" style="text-decoration: none; color: #827153;">Start Pulling</a>
               </button>
         </div>
     </div>
