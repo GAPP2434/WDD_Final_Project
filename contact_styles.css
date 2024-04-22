@@ -173,4 +173,15 @@
     scale: 0.95;
     box-shadow: 0 0 16px 4px rgba(250,235,215, 0.4);
   }
-  
+  .main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .another-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }

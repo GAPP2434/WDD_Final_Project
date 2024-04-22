@@ -135,7 +135,7 @@
                                 <img src="img/charlotte.jpg" alt="Charlotte" style="width: 260px; height: 260px; object-fit: cover;">
                                 <figcaption>Sample Article</figcaption>
                                 <div style=" display: flex ;">
-                                    <!--<button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">More Articles</a></button>-->
+                                    <button class="articles-button"><a href="articles.html" style="text-decoration: none; color: #FFFAF1;">More Articles</a></button> 
                                     
                                 </div>
                             </figure>
