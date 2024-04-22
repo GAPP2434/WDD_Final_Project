@@ -32,7 +32,6 @@
     text-decoration: none;
     color: white;
 }
-
 .header-container-menu ul {
     display: inline-block;
     font-size: medium;
@@ -57,18 +56,28 @@
 }
 
 .secondary-header {
-    width: 100%;
-    margin-left: -8px;
-    padding: 50px;
-    height: 30vh;
+  width: 100%;
+  padding: 50px;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
 }
 
 .secondary-header h1 {
-    display: flex;
-    justify-content: center;
-    color: white; /* Text color */
-    font-size: 12vh; /* Font size */
-    text-align: center; /* Center align the text */
+  width: 100%;
+  height: 1em;
+  color: white; /* Text color */
+  font-size: 8em; /* Font size */
+  text-align: center; /* Center align the text */
+}
+.underline{
+  border-top: 15px solid khaki; 
+  width: 25vw;
+  margin-top: 2em;
 }
 /* END OF HEADER*/
 
@@ -83,13 +92,14 @@
 }
 
 .body-service {
-    display: flex;
-    flex-direction: row; /* Ensures body content is stacked vertically */
-    justify-content: space-evenly;
-    font-size: medium;
-    padding: 20px;
-    margin-top: 60px;
-    background-color: #827153;
+  display: flex;
+  flex-direction: row; /* Ensures body content is stacked vertically */
+  justify-content: space-evenly;
+  font-size: medium;
+  padding: 20px;
+  margin-top: 60px;
+  background-color: #827153;
+  overflow: auto;
 }
 
 .body-service p {
@@ -159,32 +169,69 @@
     /*position: relative; /* Add relative positioning to the container */
 }
 
-.button-more-articles {
-    position: absolute;
-    bottom: 0; /* Align the button to the bottom of the container */
-    right: 0; /* Align the button to the right edge of the container */
+.body-articles-figure-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  height: 20em;
 }
-
-
 .body-articles-figure {
-    row-gap: 15px;
-    padding: 5px;
-    align-self: center;
-    display: flex; /* Add flex display to the figure container */
-    flex-direction: column; /* Arrange content vertically */
-    justify-content: center; /* Center content vertically */
-    text-align: center; /* Center content horizontally */
-    flex-shrink: 0;
+  display: flex; /* Add flex display to the figure container */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Center content horizontally */
+  height: 19em;
+}
+.body-articles-figure figure{
+  height: 19em;
 }
 
 .body-articles-figure figcaption {
-    padding-top: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: lighter;
-    color: #666666;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: lighter;
+  color: #666666;
 }
-
+.articles-button {
+  background-color: #827153;
+  color: #FFFAF1;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  }
+  hr {
+    width: 80%;
+    margin: auto;
+  }
+  .service-button {
+  float: right;
+  background-color: #827153;
+  border-radius: 5px;
+  border: 2px solid #FFFAF1;
+  color: #FFFAF1;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+   /*display: inline-block;*/
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  
+  .service-button:hover {
+  background-color: #d5cab69a;
+  color: #FFFAF1;
+  }
+  .articles-button:hover {
+  box-shadow: 0px 22px 25px -2px rgba(0,0,0,0.1); /*https://box-shadow.dev/*/
+  }
+  
 .body-offerings {
     display: flex;
     gap: 5px;
@@ -217,10 +264,6 @@
     padding-bottom: 30px;
 }
 
-hr {
-    width: 80%;
-    margin: auto;
-}
 
 /*CAROUSEL STUFF*/
 .carousel {
@@ -380,120 +423,21 @@ hr {
 /* Path: styles.css */
 
 
-.button {
-  position: relative;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  background-color: #e8e8e8;
-  padding: 10px 24px;
-  cursor: pointer;
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: all 0.4s ease;
-}
-
-.button:before {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  width: 100%;
-  height: 20%;
-  background-color: #e8e8e8;
-  translate: -100% 0;
-  rotate: 45deg;
-  transition: all 0.4s ease;
-}
-
-.button:hover {
-  color: rgb(130,113,83);
-  background-color: rgb(250,235,215);
-  box-shadow: 0 0 24px 8px rgba(250,235,215, 0.4);
-}
-
-.button:hover:before {
-  translate: 100%;
-}
-
-.button:active {
-  scale: 0.95;
-  box-shadow: 0 0 16px 4px rgba(250,235,215, 0.4);
-}
-.articles-button {
-  position:absolute;
-  margin-top: 20px;
-  background-color: #827153;
-  color: #FFFAF1;
-  padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.service-button {
-  float: right;
-  background-color: #827153;
-  border-radius: 5px;
-  border: 2px solid #FFFAF1;
-  color: #FFFAF1;
-  padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-   /*display: inline-block;*/
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.service-button:hover {
-background-color: #d5cab69a;
-color: #FFFAF1;
-}
-.articles-button:hover {
-  box-shadow: 0px 22px 25px -2px rgba(0,0,0,0.1); /*https://box-shadow.dev/*/
-}
-
-@media screen and (max-width: 768px) {
-  .body-articles-figure {
-    flex: 0 0 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
-}
-
- /*Modal*/
- .modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border: 10px solid black;
-  border-radius: 20px;
-  z-index: 10;
-  background-color: white;
-  width: 1300px;
-  max-width: 80%;
-  height: 700px;
-  max-height: 80%;
-
-  background:
-  radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
-  radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
-  radial-gradient(circle closest-side at 42% 22%, #d35 43%, rgba(221,51,85,0) 45%),
-  radial-gradient(circle closest-side at 58% 22%, #d35 43%, rgba(221,51,85,0) 45%),
-  radial-gradient(circle closest-side at 50% 35%, #d35 32%, rgba(221,51,85,0) 27%),
-
-  radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
-  radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
-  radial-gradient(circle closest-side at 40% 22%, #d35 40%, rgba(221,51,85,0) 45%) 52px 50px,
-  radial-gradient(circle closest-side at 60% 22%, #d35 40%, rgba(221,51,85,0) 45%) 48px 50px,
-  radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 37%) 50px 50px;
-  background-color:#b03;
-  background-size:100px 100px;
+/*Modal*/
+.modal {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0);
+transition: 200ms ease-in-out;
+border: 10px solid black;
+border-radius: 20px;
+z-index: 10;
+background-color: white;
+width: 1300px;
+max-width: 80%;
+height: 700px;
+max-height: 80%;
 }
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
@@ -589,3 +533,75 @@ color: #FFFAF1;
   z-index: 5;
 }
 /* End of Modal*/
+
+/*Media Queries*/
+@media only screen and (max-width: 1000px) and (max-height: 1000px){
+  .body-articles-figure-container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .secondary-header h1{
+    font-size: 10vw;
+  }
+  .header-container{
+    width: 100%;
+    height: 10vh;
+  }
+  .header-container-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    width: 40%;
+    font-size: 1.3vw;
+  }
+  .header-container-menu{
+    width: 50%;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .header-container-menu ul{
+    width: 100%;
+    font-size: 2vw;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+  }
+  .secondary-header{
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+  }
+  .underline{
+    margin-top: 60px;
+    height: 100%;
+    width: 40vw;
+  }
+  .body-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .body-offerings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .body-offerings:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel{
+    width: 260px;
+  }
+}
