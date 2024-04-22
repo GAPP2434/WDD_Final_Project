@@ -238,4 +238,64 @@
       transform: translateY(-0.1em);
     }
   }
+  .reset-button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   .reset-button, .reset-button span {
+    transition: 200ms;
+   }
+   
+   .reset-button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .reset-button .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .reset-button svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .reset-button:hover {
+    background: #ff3636;
+   }
+   
+   .reset-button:hover .text {
+    color: transparent;
+   }
+   
+   .reset-button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   .reset-button:focus {
+    outline: none;
+   }
+   
+   .reset-button:active .icon svg {
+    transform: scale(0.8);
+   }
   
