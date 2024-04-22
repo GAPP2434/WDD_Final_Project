@@ -16,7 +16,7 @@
                 <h1><a href = "NOT_USED/index.html">Snezhnaya Hearth Orphanage</a></h1>
             </div>
             <div class="header-container-menu">
-                <ul><a href = "sample.html">Home</a></ul>
+                <ul><a href = "sample.php">Home</a></ul>
                 <ul><a href = "about.html">About</a></ul>
                 <ul><a href = "services.html">Services</a></ul>
                 <ul><a href = "articles.html">Articles</a></ul>
